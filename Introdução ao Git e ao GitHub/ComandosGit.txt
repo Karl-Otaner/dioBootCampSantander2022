@@ -1,0 +1,34 @@
+Criar novo repositorio local:
+> git init
+
+Obter novo repositorio:
+cópia de trabalho 
+do github para um repositorio
+local
+> git clone <link / caminho>
+
+Verificação de status:
+> git status
+
+Adicionando arquivos no git:
+Arquivo expecifico
+> git add <arquivo>
+ou todos os arquivos
+> git add .
+ou
+> git add -a
+
+Comitando (adicionando msg no commit):
+> git commit -m "primeiro commit"
+
+"Subindo" o repositorio para o github:
+> git remote add origin https://github.com/usuario/nome-do-repositorio
+
+Mandando commit para a branch master
+> git push -u origin master
+
+se quiser fazer alteração no que foi "subido" para o git/github
+> git add .
+> git commit -m "msg para o commit"
+> git push origin master
+
